@@ -1,0 +1,13 @@
+project_api_vehicle_get:
+  path: /vehicle/{code}
+  defaults: { _controller: App\Controller\Vehicle\VehicleController::getAction, _format: json }
+  methods: [GET]
+  requirements:
+    code: (.+$)(?<!/draft|/proposal)
+
+project_api_vehicle_get_all:
+  path: /vehicles
+  defaults: { _controller: App\Controller\Vehicle\VehicleController::getAllAction, _format: json }
+  methods: [GET]
+  requirements:
+    code: (.+$)(?<!/draft|/proposal)
