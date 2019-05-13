@@ -1,14 +1,7 @@
 {
-    "_links": [],
-    "current_page": 1,
     "_embedded": {
         "items": [
             {
-                "_links": {
-                    "self": {
-                        "href": "http://31.192.231.49/api/rest/v1/vehicle/hyundai_dk_i10"
-                    }
-                },
                 "identifier": "hyundai_dk_i10",
                 "groups": [],
                 "categories": [],
@@ -23,16 +16,29 @@
                         "code": "description",
                         "value": "teksten er her",
                         "label": "Description"
+                    },
+                    {
+                        "code": "ncap",
+                        "value": 5,
+                        "label": "NCAP"
+                    },
+                    {
+                        "code": "crm",
+                        "value": "e12db35b-c7f8-48b6-a8be-394841e0596b",
+                        "label": "NCAP"
                     }
                 ],
+                "energy_classes": [
+                    "B",
+                    "A+++"
+                ],
+                "legal": "Vist med ekstraudstyr, Forbrug (eks. 16,7-17,5 km/l // 150-154 Wh/km).",
                 "prices_from": {
                     "price_cash": {
                         "value": 99000,
                         "occurrences": "once",
                         "currency": "SEK",
-                        "legal": {
-                            "value": "string replacement hell"
-                        }
+                        "legal": "CO2: (eks. 130-137 g/km), pris ekskl. metallak. Vi tager forbehold for afgiftsændringer og evt. trykfejl."
                     }
                 },
                 "trims": [
@@ -40,16 +46,19 @@
                         "trim": "hyundai_dk_life",
                         "trim_label": "Life",
                         "trim_parent": null,
+                        "legal": "Vist med ekstraudstyr, Forbrug (eks. 16,7-17,5 km/l // 150-154 Wh/km).",
                         "prices_from": {
                             "price_cash": {
                                 "value": 99000,
                                 "occurrences": "once",
                                 "currency": "SEK",
-                                "legal": {
-                                    "value": "string replacement hell"
-                                }
+                                "legal": "CO2: (eks. 130-137 g/km), pris ekskl. metallak. Vi tager forbehold for afgiftsændringer og evt. trykfejl."
                             }
                         },
+                        "energy_classes": [
+                            "A+",
+                            "A+++"
+                        ],
                         "value_groups": [
                             {
                                 "general": {
@@ -137,8 +146,14 @@
                                                     "label": "Varenummer"
                                                 },
                                                 {
+                                                    "code": "engine_description",
+                                                    "value": "Hyundai i10 1.0 blander fantastisk design og fremragende aerodynamisk ydeevne. En ren erklæring om dynamisk selvtillid.",
+                                                    "label": "Motor beskrivelse"
+                                                },
+                                                {
                                                     "code": "engine_size",
                                                     "value": "1.0",
+                                                    "unit": "l",
                                                     "label": "Motor"
                                                 },
                                                 {
@@ -147,9 +162,55 @@
                                                     "label": "Brændstofstype"
                                                 },
                                                 {
-                                                    "code": "engine_efficiency",
-                                                    "value": "12,2-22,1 km/l",
-                                                    "label": "Varenummer"
+                                                    "code": "engine_energy_class",
+                                                    "value": "A+++",
+                                                    "label": "Energiklasse"
+                                                },
+                                                {
+                                                    "code": "engine_co2",
+                                                    "value": "0.200",
+                                                    "unit": "kg/km",
+                                                    "label": "Co2 udslip"
+                                                },
+                                                {
+                                                    "code": "engine_efficiency_wltp_from",
+                                                    "value": "12.2",
+                                                    "unit": "km/l",
+                                                    "label": "WLTP fra"
+                                                },
+                                                {
+                                                    "code": "engine_efficiency_wltp_to",
+                                                    "value": "22.1",
+                                                    "unit": "km/l",
+                                                    "label": "WLTP til"
+                                                },
+                                                {
+                                                    "code": "engine_efficiency_nedc_from",
+                                                    "value": "16.2",
+                                                    "unit": "km/l",
+                                                    "label": "WLTP fra"
+                                                },
+                                                {
+                                                    "code": "engine_efficiency_nedc_to",
+                                                    "value": "18.1",
+                                                    "unit": "km/l",
+                                                    "label": "WLTP til"
+                                                },
+                                                {
+                                                    "code": "engine_transmission_type",
+                                                    "value": "Automatisk",
+                                                    "label": "Transmission"
+                                                },
+                                                {
+                                                    "code": "engine_transmission_gear",
+                                                    "value": "6 gear",
+                                                    "label": "Gear"
+                                                },
+                                                {
+                                                    "code": "engine_hp",
+                                                    "value": "138",
+                                                    "unit": "hk",
+                                                    "label": "HK"
                                                 }
                                             ]
                                         }
@@ -167,17 +228,13 @@
                                         "value": 99000,
                                         "occurrences": "once",
                                         "currency": "SEK",
-                                        "legal": {
-                                            "value": "string replacement hell"
-                                        }
+                                        "legal": "CO2: (eks. 130-137 g/km), pris ekskl. metallak. Vi tager forbehold for afgiftsændringer og evt. trykfejl."
                                     },
                                     "price_cash_campaign": {
                                         "value": 0,
                                         "occurrences": "once",
                                         "currency": "SEK",
-                                        "legal": {
-                                            "value": "string replacement hell"
-                                        }
+                                        "legal": "CO2: (eks. 130-137 g/km), pris ekskl. metallak. Vi tager forbehold for afgiftsændringer og evt. trykfejl."
                                     }
                                 }
                             },
@@ -218,9 +275,7 @@
                                         "value": 199000,
                                         "occurrences": "once",
                                         "currency": "SEK",
-                                        "legal": {
-                                            "value": "string replacement hell"
-                                        }
+                                        "legal": "CO2: (eks. 130-137 g/km), pris ekskl. metallak. Vi tager forbehold for afgiftsændringer og evt. trykfejl."
                                     }
                                 }
                             }
@@ -255,9 +310,7 @@
                         "value": 99000,
                         "occurrences": "once",
                         "currency": "SEK",
-                        "legal": {
-                            "value": "string replacement hell"
-                        }
+                        "legal": "CO2: (eks. 130-137 g/km), pris ekskl. metallak. Vi tager forbehold for afgiftsændringer og evt. trykfejl."
                     }
                 },
                 "trims": [
@@ -270,9 +323,7 @@
                                 "value": 99000,
                                 "occurrences": "once",
                                 "currency": "SEK",
-                                "legal": {
-                                    "value": "string replacement hell"
-                                }
+                                "legal": "CO2: (eks. 130-137 g/km), pris ekskl. metallak. Vi tager forbehold for afgiftsændringer og evt. trykfejl."
                             }
                         },
                         "value_groups": [
@@ -385,9 +436,7 @@
                                         "value": 99000,
                                         "occurrences": "once",
                                         "currency": "SEK",
-                                        "legal": {
-                                            "value": "string replacement hell"
-                                        }
+                                        "legal": "CO2: (eks. 130-137 g/km), pris ekskl. metallak. Vi tager forbehold for afgiftsændringer og evt. trykfejl."
                                     }
                                 }
                             },
@@ -428,9 +477,7 @@
                                         "value": 199000,
                                         "occurrences": "once",
                                         "currency": "SEK",
-                                        "legal": {
-                                            "value": "string replacement hell"
-                                        }
+                                        "legal": "CO2: (eks. 130-137 g/km), pris ekskl. metallak. Vi tager forbehold for afgiftsændringer og evt. trykfejl."
                                     }
                                 }
                             }
