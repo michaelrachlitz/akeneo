@@ -23,9 +23,9 @@
                         "label": "NCAP"
                     },
                     {
-                        "code": "crm",
+                        "code": "lms_identifier",
                         "value": "e12db35b-c7f8-48b6-a8be-394841e0596b",
-                        "label": "NCAP"
+                        "label": "Lead Management Identifier"
                     }
                 ],
                 "energy_classes": [
@@ -173,28 +173,16 @@
                                                     "label": "Co2 udslip"
                                                 },
                                                 {
-                                                    "code": "engine_efficiency_wltp_from",
+                                                    "code": "engine_efficiency_wltp",
                                                     "value": "12.2",
                                                     "unit": "km/l",
-                                                    "label": "WLTP fra"
+                                                    "label": "WLTP"
                                                 },
                                                 {
-                                                    "code": "engine_efficiency_wltp_to",
-                                                    "value": "22.1",
-                                                    "unit": "km/l",
-                                                    "label": "WLTP til"
-                                                },
-                                                {
-                                                    "code": "engine_efficiency_nedc_from",
-                                                    "value": "16.2",
-                                                    "unit": "km/l",
-                                                    "label": "WLTP fra"
-                                                },
-                                                {
-                                                    "code": "engine_efficiency_nedc_to",
+                                                    "code": "engine_efficiency_nedc",
                                                     "value": "18.1",
                                                     "unit": "km/l",
-                                                    "label": "WLTP til"
+                                                    "label": "NEDC"
                                                 },
                                                 {
                                                     "code": "engine_transmission_type",
